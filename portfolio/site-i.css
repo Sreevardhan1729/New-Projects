@@ -1,0 +1,71 @@
+body{
+    background: url("https://img.freepik.com/free-vector/data-security-technology-background-vector-blue-tone_53876-112201.jpg?w=2000&t=st=1673151462~exp=1673152062~hmac=571827ec41e6cc2285369420a6f75be52f7ce3863b19c2ed08fe08a7014bdcac");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+.intro{
+    margin: 195px 0 0 50px;
+}
+.name{
+    margin: 30px 0 0 50px;
+    color: lightblue;
+    text-shadow: 2px 2px 1px white;
+    cursor: pointer;
+}
+.name:hover{
+    text-shadow: 0px 0px 0px white;
+}
+.p{
+    margin: 50px 0 0 50px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.p1{
+    margin: 20px 0 0 50px;
+    font-weight: lighter;
+}
+.div1{
+    display: flex;
+    justify-content: end;
+}
+.a,.a1{
+    color: lightblue;
+    text-decoration: none;
+    margin: 10px 75px 0 0;
+}
+.a:hover,.a1:hover{
+    color: pink;
+    font-weight: 50px;
+}
+.g{
+    font-size: 20px;
+}
+#button{
+    padding: 10px 20px;
+    margin: 30px 0 0 150px;
+    border: none;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+#button:hover{
+    background-color: pink;
+    padding: 12px 24px;
+}
+.ani{
+    position: relative;
+    animation: move 0.1s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes move {
+    from {left: -1px;}
+    to {left: 1px;}
+}
